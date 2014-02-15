@@ -1,0 +1,84 @@
+
+<p> here's two boxes, put some floating point numbers (i.e. the number 2.3) in them to represent how much you'd be willing to spend for sector1 or sector2...</p>
+  <form action="/compare" method="post">
+        <table>
+        <tr>
+        <td>
+      <div><textarea name="content1" rows="3" cols="10"></textarea></div></td>
+        <td>
+      <div><textarea name="content2" rows="3" cols="10"></textarea></div></td>
+      </tr>
+      <tr>
+      <td>
+    
+
+<svg width="40" height="74" id="prevarrow">
+<polyline fill="none" stroke="#000" stroke-width="2" points="37.171,71.93 2.311,36.701 37.4,2.07"></polyline>
+</svg>
+<svg width="40" height="74" id="nextarrow">
+<polyline fill="none" stroke="#000" stroke-width="2" points="2.54,71.93 37.4,36.701 2.311,2.07 "></polyline>
+</svg>
+<div id="taxesPaid">
+    <h1>How would you spend your tax dollars?</h1>
+    <input id="taxesPaidinput" name="taxesPaid" type="text" placeholder="Taxes Paid / No Comma"/>
+            <div id="begin">+</div>
+    </div>
+<div id="taxPercent">100</div>
+<div id="taxPercent2">LEFT TO CONTRIBUTE</div>
+<div id="taxContributions">
+    <div id="pensions" class="slide">
+    <h1>amount to PENSIONS?</h1>
+            <div id="pensionPercent"></div><div class="afterPercent">percent</div>
+    <h1 style="display: none;">contributed</h1>
+        <input id="pensioninput" name="pensions" type="text" placeholder="enter percentage" maxlength="2" />
+        <div id="addpensions">+</div>
+        <div id="subpensions">-</div>
+    </div>
+    
+        <div id="healthcare"  class="slide">
+            <h1>amount to HEALTHCARE?</h1>
+            <div id="healthcarePercent"></div><div class="afterPercent">percent</div>
+    <h1 style="display: none;">contributed</h1>
+        <input id="healthcareinput" name="healthcare" type="text" placeholder="enter percentage" maxlength="2" />
+        <div id="healthcarePercent"></div>
+        <div id="addhealthcare">+</div>
+        <div id="subhealthcare">-</div>
+    </div>
+    
+          <div id="education"  class="slide">
+              <h1>amount to EDUCATION?</h1>
+            <div id="educationPercent"></div><div class="afterPercent">percent</div>
+    <h1 style="display: none;">contributed</h1>
+        <input id="educationinput" name="education" type="text" placeholder="enter percentage" maxlength="2" />
+        <div id="educationPercent"></div>
+        <div id="addeducation">+</div>
+        <div id="subeducation">-</div>
+    </div>
+    
+       <div id="defense"  class="slide">
+           <h1>amount to DEFENSE?</h1>
+            <div id="defensePercent"></div><div class="afterPercent">percent</div>
+    <h1 style="display: none;">contributed</h1>
+        <input id="defenseinput" name="defense" type="text" placeholder="enter percentage" maxlength="2" />
+        <div id="defensePercent"></div>
+        <div id="adddefense">+</div>
+        <div id="subdefense">-</div>
+    </div>
+    
+       <div id="welfare"  class="slide">
+           <h1>amount to WELFARE?</h1>
+            <div id="welfarePercent"></div><div class="afterPercent">percent</div>
+    <h1 style="display: none;">contributed</h1>
+        <input id="welfareinput" name="welfare" type="text" placeholder="enter percentage" maxlength="2" />
+        <div id="welfarePercent"></div>
+        <div id="addwelfare">+</div>
+        <div id="subwelfare">-</div>
+    </div>
+</div>
+  <div><input type="submit" value="finish"></div></td>
+
+    </form>
+</body>
+</html>
+
+

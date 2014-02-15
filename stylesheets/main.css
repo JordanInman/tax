@@ -1,0 +1,312 @@
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+  background-color: #DDDDDD;
+}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic);
+
+#body{
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#taxesPaid{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    	font-family: 'Open Sans', sans-serif;
+    position: relative;
+    top: 45%;
+}
+
+#taxesPaid input{
+text-align: center;
+width: 50%;
+height: 50px;
+text-transform: uppercase;
+margin: 50px auto;
+}
+
+#taxesPaid h1{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: 300;
+}
+
+#begin{
+font-size: 3em;
+width: 75px;
+margin: 0 auto;
+padding: 0;
+color: #fff;
+background: #000;
+}
+
+#subpensions{
+    display: none;
+}
+
+#pensions{
+width: 100%;
+margin: 0 auto;
+padding: 0;
+text-align: center;
+ 	font-family: 'Open Sans', sans-serif;
+}
+
+#pensions h1{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: 300;
+}
+
+#addpensions{
+font-size: 3em;
+width: 75px;
+margin: 0 auto;
+padding: 0;
+color: #fff;
+background: #000;
+}
+
+ #subpensions{
+font-size: 3em;
+width: 75px;
+margin: 100px auto;
+padding: 0;
+color: #fff;
+background: #000;
+}
+
+#subhealthcare{
+    display: none;
+}
+
+#healthcare{
+width: 100%;
+margin: 0 auto;
+padding: 0;
+text-align: center;
+ 	font-family: 'Open Sans', sans-serif;
+    display: none;
+}
+
+#healthcare h1{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: 300;
+}
+
+#subhealthcare{
+font-size: 3em;
+width: 75px;
+margin: 100px auto;
+padding: 0;
+color: #fff;
+background: #000;
+    display: none;
+}
+
+#addhealthcare{
+font-size: 3em;
+width: 75px;
+margin: 0 auto;
+padding: 0;
+color: #fff;
+background: #000;
+}
+
+#subeducation{
+    display: none;
+}
+
+#education{
+width: 100%;
+margin: 0 auto;
+padding: 0;
+text-align: center;
+ 	font-family: 'Open Sans', sans-serif;
+    display: none;
+}
+
+#education h1{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: 300;
+}
+
+#subeducation{
+font-size: 3em;
+width: 75px;
+margin: 100px auto;
+padding: 0;
+color: #fff;
+background: #000;
+    display: none;
+}
+
+#addeducation{
+font-size: 3em;
+width: 75px;
+margin: 0 auto;
+padding: 0;
+color: #fff;
+background: #000;
+}
+
+#subdefense{
+    display: none;
+}
+
+#defense{
+width: 100%;
+margin: 0 auto;
+padding: 0;
+text-align: center;
+ 	font-family: 'Open Sans', sans-serif;
+    display: none;
+}
+
+#defense h1{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: 300;
+}
+
+#subdefense{
+font-size: 3em;
+width: 75px;
+margin: 100px auto;
+padding: 0;
+color: #fff;
+background: #000;
+    display: none;
+}
+
+#adddefense{
+font-size: 3em;
+width: 75px;
+margin: 0 auto;
+padding: 0;
+color: #fff;
+background: #000;
+}
+
+#subwelfare{
+    display: none;
+}
+
+#welfare{
+width: 100%;
+margin: 0 auto;
+padding: 0;
+text-align: center;
+ 	font-family: 'Open Sans', sans-serif;
+    display: none;
+}
+
+#welfare h1{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: 300;
+}
+
+#subwelfare{
+font-size: 3em;
+width: 75px;
+margin: 100px auto;
+padding: 0;
+color: #fff;
+background: #000;
+    display: none;
+}
+
+#addwelfare{
+font-size: 3em;
+width: 75px;
+margin: 0 auto;
+padding: 0;
+color: #fff;
+background: #000;
+}
+
+
+
+#taxPercent{
+margin: 0 auto;
+padding: 0 4%;
+text-align: right;
+font-family: 'Open Sans', sans-serif;
+font-size: 6em;
+font-weight: 700;
+display: none;
+}
+#taxPercent:after{
+content: "%";
+}
+
+#taxPercent2{
+margin: 0 auto;
+padding: 0 4.5%;
+text-align: right;
+font-family: 'Open Sans', sans-serif;
+font-size: 1em;
+font-weight: 400;
+display: none;
+}
+
+.afterPercent{
+display: none;
+}
+
+#taxContributions{
+    display: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    top: 20%;
+}
+
+#taxContributions input{
+text-align: center;
+width: 50%;
+height: 50px;
+text-transform: uppercase;
+margin: 50px auto;
+}
+
+polyline{
+-moz-opacity: 0.50;
+-khtml-opacity: 0.50;
+opacity: 0.50;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+filter:alpha(opacity=50);
+}
+
+#prevarrow{
+position: relative;
+top: 45%;
+float: left;
+left: 5%;
+display: none;
+z-index: 1;
+}
+
+#nextarrow{
+position: relative;
+top: 45%;
+float: right;
+right: 5%;
+display: none;
+z-index: 1;
+}
+
