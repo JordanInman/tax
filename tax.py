@@ -21,7 +21,7 @@ class MainPage(webapp2.RequestHandler):
     def get(self):
         self.response.write('<html>')
         self.response.write(HEAD_HTML)
-        self.response.write('<body>')
+        self.response.write('<body id="body">')
         self.response.write(MAIN_PAGE_HTML)
         
 
@@ -50,7 +50,7 @@ class Comparison(webapp2.RequestHandler):
             old_welfare = 0.0    
         
         try:
-            #try block, in case they don't in a float
+            #try block, in case they don't input a float
             taxesPaid = float(self.request.get('taxesPaid'))
         except ValueError:
             taxesPaid = 0.0   
@@ -99,7 +99,7 @@ class Comparison(webapp2.RequestHandler):
         so that's why we have this garbage code"""
         self.response.write('<html>')
         self.response.write(HEAD_HTML)
-        self.response.write('<body>Your taxes: <table><tr><td>')
+        self.response.write('<body><p>Your taxes: </p><table><tr><td>taxesPaid</td><td>pensions</td><td>healtcare</td><td>education</td><td>defense</td><td>welfare</td></tr><tr><td>')
         self.response.write(taxesPaid)
         self.response.write('</td><td>')
         self.response.write(pensions)
@@ -112,18 +112,8 @@ class Comparison(webapp2.RequestHandler):
         self.response.write('</td><td>')
         self.response.write(welfare)
         self.response.write('</td></tr></table>')   
-        """
-        for data in old_data:
-            self.response.write('<table><tr><p>What others have said (average)</p><td>')
-            self.response.out.write(round(data.content1,2))
-            self.response.write('</td><td>')
-            self.response.out.write(round(data.content2,2))
-
-            self.response.write('</td></tr></table><p>place holder for averages (this wont be shown in production)</p>')
-            self.response.out.write(data.number)
-        """
-        self.response.write('<table><tr><p>What others have said (average)</p><td>')
-        self.response.write('</td><td>')
+        
+        self.response.write('<p>What others have said (average):</p><table><tr><td>taxesPaid</td><td>pensions</td><td>healtcare</td><td>education</td><td>defense</td><td>welfare</td></tr><tr><td>')
         self.response.write(round(avgTaxes,2))
         self.response.write('</td><td>')
         self.response.write(round(avgPensions,2))

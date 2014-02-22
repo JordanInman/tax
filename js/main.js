@@ -1,2 +1,246 @@
-var _0x3353=["\x6B\x65\x79\x70\x72\x65\x73\x73","\x6B\x65\x79\x43\x6F\x64\x65","\x76\x61\x6C","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x22\x74\x61\x78\x65\x73\x50\x61\x69\x64\x22\x5D","","\x73\x68\x61\x6B\x65","\x65\x66\x66\x65\x63\x74","\x23\x74\x61\x78\x65\x73\x50\x61\x69\x64","\x70\x75\x73\x68","\x61\x70\x70\x65\x6E\x64","\x23\x74\x61\x78\x50\x65\x72\x63\x65\x6E\x74","\x23\x74\x61\x78\x65\x73\x50\x61\x69\x64\x69\x6E\x70\x75\x74","\x68\x69\x64\x65","\x74\x6F\x67\x67\x6C\x65","\x23\x74\x61\x78\x65\x73\x50\x61\x69\x64\x2C\x20\x23\x74\x61\x78\x50\x65\x72\x63\x65\x6E\x74\x2C\x20\x23\x74\x61\x78\x43\x6F\x6E\x74\x72\x69\x62\x75\x74\x69\x6F\x6E\x73","\x74\x65\x78\x74","\x73\x6C\x69\x64\x65\x54\x6F\x67\x67\x6C\x65","\x23\x74\x61\x78\x50\x65\x72\x63\x65\x6E\x74\x32","\x6F\x6E","\x63\x6C\x69\x63\x6B","\x23\x62\x65\x67\x69\x6E","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x22\x70\x65\x6E\x73\x69\x6F\x6E\x73\x22\x5D","\x20","\x23\x70\x65\x6E\x73\x69\x6F\x6E\x73","\x23\x70\x65\x6E\x73\x69\x6F\x6E\x69\x6E\x70\x75\x74","\x23\x70\x65\x6E\x73\x69\x6F\x6E\x50\x65\x72\x63\x65\x6E\x74","\x65\x6D\x70\x74\x79","\x23\x70\x65\x6E\x73\x69\x6F\x6E\x69\x6E\x70\x75\x74\x2C\x20\x23\x61\x64\x64\x70\x65\x6E\x73\x69\x6F\x6E\x73","\x73\x68\x6F\x77","\x23\x73\x75\x62\x70\x65\x6E\x73\x69\x6F\x6E\x73\x2C\x20\x2E\x61\x66\x74\x65\x72\x50\x65\x72\x63\x65\x6E\x74","\x23\x70\x65\x6E\x73\x69\x6F\x6E\x73\x20\x68\x31","\x66\x61\x64\x65\x49\x6E","\x23\x6E\x65\x78\x74\x61\x72\x72\x6F\x77","\x23\x61\x64\x64\x70\x65\x6E\x73\x69\x6F\x6E\x73","\x23\x73\x75\x62\x70\x65\x6E\x73\x69\x6F\x6E\x73","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x22\x68\x65\x61\x6C\x74\x68\x63\x61\x72\x65\x22\x5D","\x23\x68\x65\x61\x6C\x74\x68\x63\x61\x72\x65","\x23\x68\x65\x61\x6C\x74\x68\x63\x61\x72\x65\x69\x6E\x70\x75\x74","\x23\x68\x65\x61\x6C\x74\x68\x63\x61\x72\x65\x50\x65\x72\x63\x65\x6E\x74","\x23\x68\x65\x61\x6C\x74\x68\x63\x61\x72\x65\x69\x6E\x70\x75\x74\x2C\x20\x23\x61\x64\x64\x68\x65\x61\x6C\x74\x68\x63\x61\x72\x65","\x23\x73\x75\x62\x68\x65\x61\x6C\x74\x68\x63\x61\x72\x65\x2C\x20\x2E\x61\x66\x74\x65\x72\x50\x65\x72\x63\x65\x6E\x74","\x23\x68\x65\x61\x6C\x74\x68\x63\x61\x72\x65\x20\x68\x31","\x23\x61\x64\x64\x68\x65\x61\x6C\x74\x68\x63\x61\x72\x65","\x23\x73\x75\x62\x68\x65\x61\x6C\x74\x68\x63\x61\x72\x65","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x22\x65\x64\x75\x63\x61\x74\x69\x6F\x6E\x22\x5D","\x23\x65\x64\x75\x63\x61\x74\x69\x6F\x6E","\x23\x65\x64\x75\x63\x61\x74\x69\x6F\x6E\x69\x6E\x70\x75\x74","\x23\x65\x64\x75\x63\x61\x74\x69\x6F\x6E\x50\x65\x72\x63\x65\x6E\x74","\x23\x65\x64\x75\x63\x61\x74\x69\x6F\x6E\x69\x6E\x70\x75\x74\x2C\x20\x23\x61\x64\x64\x65\x64\x75\x63\x61\x74\x69\x6F\x6E","\x23\x73\x75\x62\x65\x64\x75\x63\x61\x74\x69\x6F\x6E\x2C\x20\x2E\x61\x66\x74\x65\x72\x50\x65\x72\x63\x65\x6E\x74","\x23\x65\x64\x75\x63\x61\x74\x69\x6F\x6E\x20\x68\x31","\x23\x61\x64\x64\x65\x64\x75\x63\x61\x74\x69\x6F\x6E","\x23\x73\x75\x62\x65\x64\x75\x63\x61\x74\x69\x6F\x6E","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x22\x64\x65\x66\x65\x6E\x73\x65\x22\x5D","\x23\x64\x65\x66\x65\x6E\x73\x65","\x23\x64\x65\x66\x65\x6E\x73\x65\x69\x6E\x70\x75\x74","\x23\x64\x65\x66\x65\x6E\x73\x65\x50\x65\x72\x63\x65\x6E\x74","\x23\x64\x65\x66\x65\x6E\x73\x65\x69\x6E\x70\x75\x74\x2C\x20\x23\x61\x64\x64\x64\x65\x66\x65\x6E\x73\x65","\x23\x73\x75\x62\x64\x65\x66\x65\x6E\x73\x65\x2C\x20\x2E\x61\x66\x74\x65\x72\x50\x65\x72\x63\x65\x6E\x74","\x23\x64\x65\x66\x65\x6E\x73\x65\x20\x68\x31","\x23\x61\x64\x64\x64\x65\x66\x65\x6E\x73\x65","\x23\x73\x75\x62\x64\x65\x66\x65\x6E\x73\x65","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x22\x77\x65\x6C\x66\x61\x72\x65\x22\x5D","\x23\x77\x65\x6C\x66\x61\x72\x65","\x23\x77\x65\x6C\x66\x61\x72\x65\x69\x6E\x70\x75\x74","\x23\x77\x65\x6C\x66\x61\x72\x65\x50\x65\x72\x63\x65\x6E\x74","\x23\x77\x65\x6C\x66\x61\x72\x65\x69\x6E\x70\x75\x74\x2C\x20\x23\x61\x64\x64\x77\x65\x6C\x66\x61\x72\x65","\x23\x73\x75\x62\x77\x65\x6C\x66\x61\x72\x65\x2C\x20\x2E\x61\x66\x74\x65\x72\x50\x65\x72\x63\x65\x6E\x74","\x23\x77\x65\x6C\x66\x61\x72\x65\x20\x68\x31","\x23\x61\x64\x64\x77\x65\x6C\x66\x61\x72\x65","\x23\x73\x75\x62\x77\x65\x6C\x66\x61\x72\x65","\x2E\x73\x6C\x69\x64\x65","\x6E\x65\x78\x74","\x2E\x73\x6C\x69\x64\x65\x3A\x76\x69\x73\x69\x62\x6C\x65","\x3A\x76\x69\x73\x69\x62\x6C\x65","\x69\x73","\x2E\x73\x6C\x69\x64\x65\x3A\x6C\x61\x73\x74","\x66\x61\x64\x65\x4F\x75\x74","\x23\x70\x72\x65\x76\x61\x72\x72\x6F\x77","\x70\x72\x65\x76","\x6C\x65\x6E\x67\x74\x68","\x2E\x73\x6C\x69\x64\x65\x3A\x66\x69\x72\x73\x74","\x72\x65\x61\x64\x79"];$(document)[_0x3353[82]](function (){var _0xdd0bx1=[];var _0xdd0bx2=[];$(_0x3353[11])[_0x3353[18]](_0x3353[0],function (_0xdd0bx3){if(_0xdd0bx3[_0x3353[1]]==13){var _0xdd0bx4=$(_0x3353[3])[_0x3353[2]]();if(isNaN(_0xdd0bx4)||_0xdd0bx4==_0x3353[4]){$(_0x3353[7])[_0x3353[6]](_0x3353[5]);} else {_0xdd0bx1[_0x3353[8]](_0xdd0bx4);$(_0x3353[10])[_0x3353[9]](_0xdd0bx2[0]);$(_0x3353[11])[_0x3353[2]](_0x3353[4]);$(_0x3353[11])[_0x3353[12]]();$(_0x3353[14])[_0x3353[13]]();_0xdd0bx2[0]=parseInt($(_0x3353[10])[_0x3353[15]]());$(_0x3353[17])[_0x3353[16]]();} ;} ;} );$(_0x3353[20])[_0x3353[18]](_0x3353[19],function (){var _0xdd0bx4=$(_0x3353[3])[_0x3353[2]]();if(isNaN(_0xdd0bx4)||_0xdd0bx4==_0x3353[4]){$(_0x3353[7])[_0x3353[6]](_0x3353[5]);} else {_0xdd0bx1[_0x3353[8]](_0xdd0bx4);$(_0x3353[10])[_0x3353[9]](_0xdd0bx2[0]);$(_0x3353[11])[_0x3353[2]](_0x3353[4]);$(_0x3353[11])[_0x3353[12]]();$(_0x3353[14])[_0x3353[13]]();_0xdd0bx2[0]=parseInt($(_0x3353[10])[_0x3353[15]]());$(_0x3353[20])[_0x3353[12]]();$(_0x3353[17])[_0x3353[16]]();} ;} );$(_0x3353[33])[_0x3353[18]](_0x3353[19],function (){var _0xdd0bx5=$(_0x3353[21])[_0x3353[2]]();if(_0xdd0bx5>_0xdd0bx2[0]||_0xdd0bx5==_0x3353[4]||isNaN(_0xdd0bx5)||_0xdd0bx5==_0x3353[22]){$(_0x3353[23])[_0x3353[6]](_0x3353[5]);$(_0x3353[24])[_0x3353[2]](_0x3353[4]);} else {$(_0x3353[25])[_0x3353[9]](_0xdd0bx5);$(_0x3353[10])[_0x3353[26]]();_0xdd0bx2[0]=_0xdd0bx2[0]-parseInt(_0xdd0bx5);$(_0x3353[10])[_0x3353[9]](_0xdd0bx2[0]);$(_0x3353[24])[_0x3353[2]](_0x3353[4]);$(_0x3353[27])[_0x3353[12]]();$(_0x3353[29])[_0x3353[28]]();$(_0x3353[30])[_0x3353[13]]();$(_0x3353[32])[_0x3353[31]]();} ;} );$(_0x3353[34])[_0x3353[18]](_0x3353[19],function (){$(_0x3353[10])[_0x3353[26]]();_0xdd0bx2[0]=_0xdd0bx2[0]+parseInt($(_0x3353[25])[_0x3353[15]]());$(_0x3353[10])[_0x3353[9]](_0xdd0bx2[0]);$(_0x3353[27])[_0x3353[28]]();$(_0x3353[25])[_0x3353[28]]();$(_0x3353[25])[_0x3353[26]]();$(_0x3353[29])[_0x3353[12]]();$(_0x3353[30])[_0x3353[13]]();} );$(_0x3353[42])[_0x3353[18]](_0x3353[19],function (){var _0xdd0bx6=$(_0x3353[35])[_0x3353[2]]();if(_0xdd0bx6>_0xdd0bx2[0]||_0xdd0bx6==_0x3353[4]||isNaN(_0xdd0bx6)||_0xdd0bx6==_0x3353[22]){$(_0x3353[36])[_0x3353[6]](_0x3353[5]);$(_0x3353[37])[_0x3353[2]](_0x3353[4]);} else {$(_0x3353[38])[_0x3353[9]](_0xdd0bx6);$(_0x3353[10])[_0x3353[26]]();_0xdd0bx2[0]=_0xdd0bx2[0]-parseInt(_0xdd0bx6);$(_0x3353[10])[_0x3353[9]](_0xdd0bx2[0]);$(_0x3353[37])[_0x3353[2]](_0x3353[4]);$(_0x3353[39])[_0x3353[12]]();$(_0x3353[40])[_0x3353[28]]();$(_0x3353[41])[_0x3353[13]]();} ;} );$(_0x3353[43])[_0x3353[18]](_0x3353[19],function (){$(_0x3353[10])[_0x3353[26]]();_0xdd0bx2[0]=_0xdd0bx2[0]+parseInt($(_0x3353[38])[_0x3353[15]]());$(_0x3353[10])[_0x3353[9]](_0xdd0bx2[0]);$(_0x3353[39])[_0x3353[28]]();$(_0x3353[38])[_0x3353[28]]();$(_0x3353[38])[_0x3353[26]]();$(_0x3353[40])[_0x3353[12]]();$(_0x3353[41])[_0x3353[13]]();} );$(_0x3353[51])[_0x3353[18]](_0x3353[19],function (){var _0xdd0bx7=$(_0x3353[44])[_0x3353[2]]();if(_0xdd0bx7>_0xdd0bx2[0]||_0xdd0bx7==_0x3353[4]||isNaN(_0xdd0bx7)||_0xdd0bx7==_0x3353[22]){$(_0x3353[45])[_0x3353[6]](_0x3353[5]);$(_0x3353[46])[_0x3353[2]](_0x3353[4]);} else {$(_0x3353[47])[_0x3353[9]](_0xdd0bx7);$(_0x3353[10])[_0x3353[26]]();_0xdd0bx2[0]=_0xdd0bx2[0]-parseInt(_0xdd0bx7);$(_0x3353[10])[_0x3353[9]](_0xdd0bx2[0]);$(_0x3353[46])[_0x3353[2]](_0x3353[4]);$(_0x3353[48])[_0x3353[12]]();$(_0x3353[49])[_0x3353[28]]();$(_0x3353[50])[_0x3353[13]]();} ;} );$(_0x3353[52])[_0x3353[18]](_0x3353[19],function (){$(_0x3353[10])[_0x3353[26]]();_0xdd0bx2[0]=_0xdd0bx2[0]+parseInt($(_0x3353[47])[_0x3353[15]]());$(_0x3353[10])[_0x3353[9]](_0xdd0bx2[0]);$(_0x3353[48])[_0x3353[28]]();$(_0x3353[47])[_0x3353[28]]();$(_0x3353[47])[_0x3353[26]]();$(_0x3353[49])[_0x3353[12]]();$(_0x3353[50])[_0x3353[13]]();} );$(_0x3353[60])[_0x3353[18]](_0x3353[19],function (){var _0xdd0bx8=$(_0x3353[53])[_0x3353[2]]();if(_0xdd0bx8>_0xdd0bx2[0]||_0xdd0bx8==_0x3353[4]||isNaN(_0xdd0bx8)||_0xdd0bx8==_0x3353[22]){$(_0x3353[54])[_0x3353[6]](_0x3353[5]);$(_0x3353[55])[_0x3353[2]](_0x3353[4]);} else {$(_0x3353[56])[_0x3353[9]](_0xdd0bx8);$(_0x3353[10])[_0x3353[26]]();_0xdd0bx2[0]=_0xdd0bx2[0]-parseInt(_0xdd0bx8);$(_0x3353[10])[_0x3353[9]](_0xdd0bx2[0]);$(_0x3353[55])[_0x3353[2]](_0x3353[4]);$(_0x3353[57])[_0x3353[12]]();$(_0x3353[58])[_0x3353[28]]();$(_0x3353[59])[_0x3353[13]]();} ;} );$(_0x3353[61])[_0x3353[18]](_0x3353[19],function (){$(_0x3353[10])[_0x3353[26]]();_0xdd0bx2[0]=_0xdd0bx2[0]+parseInt($(_0x3353[56])[_0x3353[15]]());$(_0x3353[10])[_0x3353[9]](_0xdd0bx2[0]);$(_0x3353[57])[_0x3353[28]]();$(_0x3353[56])[_0x3353[28]]();$(_0x3353[56])[_0x3353[26]]();$(_0x3353[58])[_0x3353[12]]();$(_0x3353[59])[_0x3353[13]]();} );$(_0x3353[69])[_0x3353[18]](_0x3353[19],function (){var _0xdd0bx9=$(_0x3353[62])[_0x3353[2]]();if(_0xdd0bx9>_0xdd0bx2[0]||_0xdd0bx9==_0x3353[4]||isNaN(_0xdd0bx9)||_0xdd0bx9==_0x3353[22]){$(_0x3353[63])[_0x3353[6]](_0x3353[5]);$(_0x3353[64])[_0x3353[2]](_0x3353[4]);} else {$(_0x3353[65])[_0x3353[9]](_0xdd0bx9);$(_0x3353[10])[_0x3353[26]]();_0xdd0bx2[0]=_0xdd0bx2[0]-parseInt(_0xdd0bx9);$(_0x3353[10])[_0x3353[9]](_0xdd0bx2[0]);$(_0x3353[64])[_0x3353[2]](_0x3353[4]);$(_0x3353[66])[_0x3353[12]]();$(_0x3353[67])[_0x3353[28]]();$(_0x3353[68])[_0x3353[13]]();} ;} );$(_0x3353[70])[_0x3353[18]](_0x3353[19],function (){$(_0x3353[10])[_0x3353[26]]();_0xdd0bx2[0]=_0xdd0bx2[0]+parseInt($(_0x3353[65])[_0x3353[15]]());$(_0x3353[10])[_0x3353[9]](_0xdd0bx2[0]);$(_0x3353[66])[_0x3353[28]]();$(_0x3353[65])[_0x3353[28]]();$(_0x3353[65])[_0x3353[26]]();$(_0x3353[67])[_0x3353[12]]();$(_0x3353[68])[_0x3353[13]]();} );$(_0x3353[32])[_0x3353[18]](_0x3353[19],function (){var _0xdd0bxa=$(_0x3353[73])[_0x3353[12]]()[_0x3353[72]](_0x3353[71]);$(_0xdd0bxa)[_0x3353[31]]();if($(_0x3353[76])[_0x3353[75]](_0x3353[74])){$(_0x3353[32])[_0x3353[77]]();} ;$(_0x3353[78])[_0x3353[31]]();} );$(_0x3353[78])[_0x3353[18]](_0x3353[19],function (){var _0xdd0bxb=$(_0x3353[73])[_0x3353[12]]()[_0x3353[79]](_0x3353[71]);if(_0xdd0bxb[_0x3353[80]]<1){_0xdd0bxb=$(_0x3353[81]);} ;$(_0xdd0bxb)[_0x3353[31]]();if($(_0x3353[81])[_0x3353[75]](_0x3353[74])){$(_0x3353[78])[_0x3353[77]]();} ;$(_0x3353[32])[_0x3353[31]]();} );} );
+$(document).ready(function(){
 
+var taxpaid = [];
+var newPercent = [];
+var pensions = 0;
+var healthcare = 0;
+var education = 0;
+var defense = 0;
+var welfare = 0;
+
+// Taxes Paid
+$("#taxesPaidinput").on("keypress", function(enter){
+    if(enter.keyCode == 13){
+        var taxespaidinput = $('input[name="taxesPaid"]').val();             
+        if(isNaN(taxespaidinput) || taxespaidinput == ""){
+            $("#taxesPaid").effect("shake");
+        }
+    else{
+        taxpaid.push(taxespaidinput);
+        $("#taxPercent").append(newPercent[0]);
+        $("#taxesPaidinput").val(""); 
+        $("#taxesPaidinput").hide();
+    		$("#taxesPaid, #taxPercent, #taxContributions").toggle();
+        newPercent[0] = parseInt($("#taxPercent").text());
+         $("#taxPercent2").slideToggle();
+    }
+}
+});
+
+$("#begin").on("click", function(){
+        var taxespaidinput = $('input[name="taxesPaid"]').val();             
+        if(isNaN(taxespaidinput) || taxespaidinput == ""){
+            $("#taxesPaid").effect("shake");
+        }
+    else{
+        taxpaid.push(taxespaidinput);
+        $("#taxPercent").append(newPercent[0]);
+        $("#taxesPaidinput").val(""); 
+        $("#taxesPaidinput").hide();
+    		$("#taxesPaid, #taxPercent, #taxContributions").toggle();
+        newPercent[0] = parseInt($("#taxPercent").text());
+        $("#begin").hide();
+        $("#taxPercent2").slideToggle();
+    }
+});
+
+
+// Categories 
+$("#addpensions").on("click", function(){
+    var pensionpercent = $('input[name="pensions"]').val();
+    if(pensionpercent > newPercent[0] || pensionpercent == "" || isNaN(pensionpercent)|| pensionpercent == " "){
+    $("#pensions").effect("shake"); 
+    $("#pensioninput").val("");    
+    }
+    else{    
+    $("#pensionPercent").append(pensionpercent);
+    $("#taxPercent").empty();
+    newPercent[0] = newPercent[0]-parseInt(pensionpercent);
+    pensions = parseInt(pensionpercent);
+    $("#taxPercent").append(newPercent[0]);
+    $("#pensioninput").val(""); 
+    $("#pensioninput, #addpensions").hide();
+    $("#subpensions, .afterPercent").show();
+    $("#pensions h1").toggle();
+    $("#nextarrow").fadeIn();
+    }
+    submit();
+});
+
+$("#subpensions").on("click", function(){
+    $("#taxPercent").empty();
+    newPercent[0] = newPercent[0]+parseInt($("#pensionPercent").text());
+    pensions = 0
+    $("#taxPercent").append(newPercent[0]);
+    $("#pensioninput, #addpensions").show();
+    $("#pensionPercent").show();
+    $("#pensionPercent").empty();
+    $("#subpensions, .afterPercent").hide();
+    $("#pensions h1").toggle();
+});
+
+$("#addhealthcare").on("click", function(){
+    var healthcarepercent = $('input[name="healthcare"]').val();
+    if(healthcarepercent > newPercent[0] || healthcarepercent == "" || isNaN(healthcarepercent)|| healthcarepercent == " "){
+    $("#healthcare").effect("shake"); 
+    $("#healthcareinput").val("");    
+    }
+    else{    
+    $("#healthcarePercent").append(healthcarepercent);
+    $("#taxPercent").empty();
+    newPercent[0] = newPercent[0]-parseInt(healthcarepercent);
+    healthcare = parseInt(healthcarepercent);
+    $("#taxPercent").append(newPercent[0]);
+    $("#healthcareinput").val(""); 
+    $("#healthcareinput, #addhealthcare").hide();
+    $("#subhealthcare, .afterPercent").show();
+    $("#healthcare h1").toggle();
+    }
+    submit();
+});
+
+$("#subhealthcare").on("click", function(){
+    $("#taxPercent").empty();
+    newPercent[0] = newPercent[0]+parseInt($("#healthcarePercent").text());
+    healthcare = 0;
+    $("#taxPercent").append(newPercent[0]);
+    $("#healthcareinput, #addhealthcare").show();
+    $("#healthcarePercent").show();
+    $("#healthcarePercent").empty();
+    $("#subhealthcare, .afterPercent").hide();
+    $("#healthcare h1").toggle();
+});
+
+$("#addeducation").on("click", function(){
+    var educationpercent = $('input[name="education"]').val();
+    if(educationpercent > newPercent[0] || educationpercent == "" || isNaN(educationpercent)|| educationpercent == " "){
+    $("#education").effect("shake"); 
+    $("#educationinput").val("");    
+    }
+    else{    
+    $("#educationPercent").append(educationpercent);
+    $("#taxPercent").empty();
+    newPercent[0] = newPercent[0]-parseInt(educationpercent);
+    education = parseInt(educationpercent);
+    $("#taxPercent").append(newPercent[0]);
+    $("#educationinput").val(""); 
+    $("#educationinput, #addeducation").hide();
+    $("#subeducation, .afterPercent").show();
+    $("#education h1").toggle();
+    }
+    submit();
+});
+
+$("#subeducation").on("click", function(){
+    $("#taxPercent").empty();
+    newPercent[0] = newPercent[0]+parseInt($("#educationPercent").text());
+    education = 0;
+    $("#taxPercent").append(newPercent[0]);
+    $("#educationinput, #addeducation").show();
+    $("#educationPercent").show();
+    $("#educationPercent").empty();
+    $("#subeducation, .afterPercent").hide();
+    $("#education h1").toggle();
+ 
+});
+
+$("#adddefense").on("click", function(){
+    
+    var defensepercent = $('input[name="defense"]').val();
+    if(defensepercent > newPercent[0] || defensepercent == "" || isNaN(defensepercent)|| defensepercent == " "){
+    $("#defense").effect("shake"); 
+    $("#defenseinput").val("");    
+    }
+    else{    
+    $("#defensePercent").append(defensepercent);
+    $("#taxPercent").empty();
+    newPercent[0] = newPercent[0]-parseInt(defensepercent);
+    defense = parseInt(defensepercent);
+    $("#taxPercent").append(newPercent[0]);
+    $("#defenseinput").val(""); 
+    $("#defenseinput, #adddefense").hide();
+    $("#subdefense, .afterPercent").show();
+    $("#defense h1").toggle();
+    }
+    submit();
+});
+
+$("#subdefense").on("click", function(){
+
+    $("#taxPercent").empty();
+    newPercent[0] = newPercent[0]+parseInt($("#defensePercent").text());
+    defense = 0;
+    $("#taxPercent").append(newPercent[0]);
+    $("#defenseinput, #adddefense").show();
+    $("#defensePercent").show();
+    $("#defensePercent").empty();
+    $("#subdefense, .afterPercent").hide();
+    $("#defense h1").toggle();
+});
+
+$("#addwelfare").on("click", function(){
+
+    var welfarepercent = $('input[name="welfare"]').val();
+    if(welfarepercent > newPercent[0] || welfarepercent == "" || isNaN(welfarepercent)|| welfarepercent == " "){
+    $("#welfare").effect("shake"); 
+    $("#welfareinput").val("");    
+    }
+    else{    
+    $("#welfarePercent").append(welfarepercent);
+    $("#taxPercent").empty();
+    newPercent[0] = newPercent[0]-parseInt(welfarepercent);
+    welfare = parseInt(welfarepercent);
+    $("#taxPercent").append(newPercent[0]);
+    $("#welfareinput").val(""); 
+    $("#welfareinput, #addwelfare").hide();
+    $("#subwelfare, .afterPercent").show();
+    $("#welfare h1").toggle();
+    }
+    submit();
+});
+
+$("#subwelfare").on("click", function(){
+
+    $("#taxPercent").empty();
+    newPercent[0] = newPercent[0]+parseInt($("#welfarePercent").text());
+    welfare = 0;
+    $("#taxPercent").append(newPercent[0]);
+    $("#welfareinput, #addwelfare").show();
+    $("#welfarePercent").show();
+    $("#welfarePercent").empty();
+    $("#subwelfare, .afterPercent").hide();
+    $("#welfare h1").toggle();
+});
+
+
+// Arrows
+$("#nextarrow").on("click", function(){
+var next = $(".slide:visible").hide().next(".slide");
+$(next).fadeIn();
+if($(".slide:last").is(":visible")){
+$("#nextarrow").fadeOut();
+}
+$("#prevarrow").fadeIn();
+});
+
+$("#prevarrow").on("click", function(){
+var prev = $(".slide:visible").hide().prev(".slide");
+if(prev.length < 1){
+prev = $(".slide:first");
+}
+$(prev).fadeIn();
+if($(".slide:first").is(":visible")){
+$("#prevarrow").fadeOut();
+}
+$("#nextarrow").fadeIn();
+});
+
+//submit button
+submit = function(){
+    myString = '<form action="/compare" method="post"><input type="hidden" name="taxesPaid" value =' + String(taxpaid[0]) +'><input type="hidden" name="pensions" value =' + String(pensions)+ '><input type="hidden" name="healthcare" value =' + String(healthcare)+ '><input type="hidden" name="education" value =' + String(education)+ '><input type="hidden" name="defense" value =' + String(defense)+ '><input type="hidden" name="welfare" value =' + String(welfare)+ '><div><input type="submit" value="finish"></div></form>'
+    if (newPercent[0] == 0){
+        document.getElementById("body").innerHTML = myString
+    };
+}    
+
+});
