@@ -81,12 +81,21 @@ class Comparison(webapp2.RequestHandler):
         except (TypeError, IndexError):
             #this is hopefully only for initialization purposes
             num = 1
-        avgTaxes = taxesPaid/num + old_taxesPaid*(num-1)/num
-        avgPensions = pensions/num +old_pensions*(num-1)/num
-        avgHealthcare = healthcare/num +old_healthcare*(num-1)/num
-        avgEducation = education/num +old_education*(num-1)/num
-        avgDefense = defense/num +old_defense*(num-1)/num
-        avgWelfare = welfare/num +old_welfare*(num-1)/num
+        try:
+            avgTaxes = taxesPaid/num + old_taxesPaid*(num-1)/num
+            avgPensions = pensions/num +old_pensions*(num-1)/num
+            avgHealthcare = healthcare/num +old_healthcare*(num-1)/num
+            avgEducation = education/num +old_education*(num-1)/num
+            avgDefense = defense/num +old_defense*(num-1)/num
+            avgWelfare = welfare/num +old_welfare*(num-1)/num
+        except TypeError:
+            avgTaxes = taxesPaid
+            avgPensions = pensions
+            avgHealthcare = healthcare
+            avgEducation = education
+            avgDefense = defense
+            avgWelfare = welfare
+            
                          
         new_data = Data(taxesPaid = avgTaxes, pensions = avgPensions, \
         healthcare = avgHealthcare, education = avgEducation, \
