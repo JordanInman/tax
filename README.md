@@ -10,3 +10,5 @@ This is why I think it would be interesting to hear the voice of the people and 
 
 So what I need is people that can help me code a website and manage a database, and also any remarks that might improve that experiment or make me understand why it is doomed from the start. Also, if this is not the right place to post this kind of request, just tell me, and if you're kind enough, point me in the right direction (I've already posted this in another group and hope to find more success here).
 If you are interested in any of those tasks, let me know.
+
+-- Aurélien Gomez --
